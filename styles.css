@@ -1,0 +1,83 @@
+body { 
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background: #0b0618;
+    color: #e6d8ff;
+}
+
+/* Avatar */
+
+.avatar {
+    width: 150px;
+    border-radius: 12px;
+
+    border: 2px solid #9d4edd;
+
+    transition: transform 0.3s ease;
+}
+
+/* Card */
+
+.card {
+
+    width: 420px;
+    margin: 100px auto;
+
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    background: linear-gradient(
+        145deg,
+        #120a2a,
+        #1e0f3f
+    );
+
+    border: 1px solid #9d4edd;
+    border-radius: 14px;
+
+    box-shadow:
+        0 0 10px #7b2cbf,
+        0 0 25px #5a189a;
+
+    transition: all 0.35s ease;
+}
+
+/* Hover effect */
+
+.card:hover {
+
+    transform: translateY(-6px) scale(1.03);
+
+    box-shadow:
+        0 0 20px #9d4edd,
+        0 0 40px #7b2cbf,
+        0 0 60px #5a189a;
+}
+
+/* Avatar hover */
+
+.card:hover .avatar {
+    transform: scale(1.08);
+}
+
+/* Text */
+
+.card-info h3 {
+    margin: 0;
+    color: #c77dff;
+}
+
+.card-info p {
+    margin: 6px 0;
+    color: #b8a7ff;
+}
+
+.card-info h4 {
+    margin: 0;
+    font-weight: normal;
+    color: #9381ff;
+}

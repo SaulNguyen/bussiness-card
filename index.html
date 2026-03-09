@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sául Nguyen - Full Stack Developer</title>
+  <meta name="description" content="Animated personal intro page for Sául Nguyen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="aurora aurora-1"></div>
+  <div class="aurora aurora-2"></div>
+  <div class="grid"></div>
+
+  <main class="hero">
+    <div class="glow-ring ring-1"></div>
+    <div class="glow-ring ring-2"></div>
+
+    <section class="portrait-wrap" aria-label="Portrait of Sául Nguyen">
+      <div class="portrait-orb"></div>
+      <div class="portrait-card">
+        <img src="portrait.png" alt="Portrait of Sául Nguyen" class="portrait" />
+        <div class="floating-badge badge-top">creative code</div>
+        <div class="floating-badge badge-bottom">pixel energy</div>
+      </div>
+    </section>
+
+    <section class="headline-wrap">
+      <p class="eyebrow">PORTFOLIO ENERGY</p>
+
+      <h1 class="headline">
+        <span class="line reveal">
+          <span class="text-shift">Sául Nguyen</span>
+        </span>
+        <span class="line reveal subtitle">
+          <span class="gradient-text">Full Stack Developer</span>
+        </span>
+      </h1>
+
+      <div class="chips" aria-hidden="true">
+        <span>Frontend</span>
+        <span>Backend</span>
+        <span>Motion UI</span>
+        <span>Creative Dev</span>
+      </div>
+    </section>
+  </main>
+
+  <canvas id="particles"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
